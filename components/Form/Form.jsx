@@ -32,16 +32,16 @@ const Form = ({data}) => {
   <p className="text-[16px]">{data.last_name}</p>  
   <p className='text-[#A2A1A8] text-[14px] mt-[10px]'>Email Address</p>
   <p className="text-[16px]">{data.email}</p> 
-  <p className='text-[#A2A1A8] text-[14px]'>Marital Status</p>
+  <p className='text-[#A2A1A8] text-[14px] mt-[10px]'>Marital Status</p>
   <p className="text-[16px]">null</p> 
-  <p className='text-[#A2A1A8] text-[14px]'>Nationality</p>
+  <p className='text-[#A2A1A8] text-[14px] mt-[10px]'>Nationality</p>
   <p className="text-[16px]">null</p>  
-  <p className='text-[#A2A1A8] text-[14px]'>City</p>
+  <p className='text-[#A2A1A8] text-[14px] mt-[10px]'>City</p>
   <p className="text-[16px]">null</p> 
-  <p className='text-[#A2A1A8] text-[14px]'>Zip code</p>
+  <p className='text-[#A2A1A8] text-[14px] mt-[10px]'>Zip code</p>
   <p className="text-[16px]">null</p>
 
-  <p className='text-[#A2A1A8] text-[14px]'>Salary/hours</p>
+  <p className='text-[#A2A1A8] text-[14px] mt-[10px]'>Salary/hours</p>
   <p className="text-[16px]">null</p>  
     </div>
 
