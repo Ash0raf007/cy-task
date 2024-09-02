@@ -60,7 +60,7 @@ export default function Profile() {
           <div className="flex">
             <div>
               <Image
-                src={data.image} 
+                src={data.image}
                 alt="Profile Image"
                 width={100}
                 height={100}
@@ -106,17 +106,54 @@ export default function Profile() {
           </div>
         </div>
         <hr className="mt-[20px]" />
-        <div className="mt-[20px] flex">
-          <Image
-            src="/user.svg"
-            width={24}
-            height={24}
-            alt="Personal Information Icon"
-            className="text-red-500"
-          />
-          <span className="ml-[10px] ">Personal Information</span>
-        </div>
+        <div className="flex gap-[20px] mt-[20px]">
+          <div className="flex flex-col">
+            <div className="flex">
+              <Image
+                src="/user-icon.svg"
+                width={24}
+                height={24}
+                alt="Personal Information Icon"
+                className="text-red-500"
+              />
+              <span className="ml-[10px] text-[16px] font-bold text-red-500">Personal Information</span>
 
+            </div>
+
+            <hr className="w-full h-[5px] bg-red-500" />
+          </div>
+          <div className=" flex">
+            <Image
+              src="/Vector.svg"
+              width={24}
+              height={24}
+              alt="Personal Information Icon"
+              className="text-red-500"
+            />
+            <span className="ml-[10px] ">Professional Information</span>
+          </div>
+          <div className=" flex">
+            <Image
+              src="/document-text.svg"
+              width={24}
+              height={24}
+              alt="Personal Information Icon"
+              className="text-red-500"
+            />
+            <span className="ml-[10px] ">Documents</span>
+          </div>
+          <div className=" flex">
+            <Image
+              src="/lock.svg"
+              width={24}
+              height={24}
+              alt="Personal Information Icon"
+              className="text-red-500"
+            />
+            <span className="ml-[10px] ">Account Access</span>
+          </div>
+
+        </div>
         <Form data={data} />
       </div>
     </>

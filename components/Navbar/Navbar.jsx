@@ -26,18 +26,18 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between mt-[34px]'>
 
-{/* <div className="bg-black  border"><p className="flex gap-[5px]">{nameOfCurrentPath}</p></div> */}
+      {/* <div className="bg-black  border"><p className="flex gap-[5px]">{nameOfCurrentPath}</p></div> */}
 
 
-<div className='bg-[#EFEFF0] rounded mr-[20px] p-[15px]'>
-<Bell className="w-6 h-6  text-[#16151C]" />
-</div>
+      <div className='bg-[#EFEFF0] rounded mr-[20px] p-[15px]'>
+        <Bell className="w-6 h-6  text-[#16151C]" />
+      </div>
 
 
-    <div className=''>
-    <Image src="/imgv2.png" alt="img" width={60} height={60}  />
-    </div>
-  
+      <div className=''>
+        <Image src="/imgv2.png" alt="img" width={60} height={60} />
+      </div>
+
 
     </div>
   )
